@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import './App.css'
+import './App.sass'
 
 class App extends Component {
   render () {
     return (
       <div className='App'>
         <div className='App-header'>
-          <h1>Intro to Matt</h1>
+          <h1>Hello Matt.</h1>
         </div>
         <div className='texthead'>
           <h2>August 8th, 2016</h2>
@@ -17,11 +17,13 @@ class App extends Component {
         <p className='App-paragraph'>
           More than anything else, I'm really excited about finding out some practical applications for this new feature of JavaScript (including use in a blog).  When we apply real-world scenarios where using the technology we're learning is helpful, I'm able to better grasp the core concepts of the technology.  I haven't had that "A Ha" moment that everyone keeps talking about - though apparently I'm not supposed to yet- but I have a feeling that because of what I just stated, it may not come until I'm building my final app and am therefore ready to make use of the different pieces of tech - including React - that we've learned.  With all that in mind, regarding the article we read today's lecture...well I've still got three days of comprehension lag to deal with before I'm able to fully grasp what the heck I'm doing, even as I type.
       </p>
+      <div className='webpack'>
+      <h3>UPDATE:</h3>
+      <p>I'm now using webpack and instead of CSS I've converted this file over to using Sass.  I think the main reason for doing that is because of its name.  It's called sass, I mean, come on.  It's called sass.  It also has a sassy little logo in my atom dropdown menu.  Also here's a cool photo of the the logos for the two main components I'm working with right now: </p>
+        <img src='react-webpack.png'/>
+      </div>
       <div className='footer'>
         <h3>Matt Schwartz Iron Yard Blog</h3>
-        <p>
-        <h4>8/8/16</h4>
-        </p>
       </div>
       </div>
 
